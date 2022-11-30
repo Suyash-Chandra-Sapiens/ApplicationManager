@@ -4,10 +4,11 @@ export default function HomePage() {
     <>
       <ul>
         <li>
-          <Link to="/fleet">Fleet</Link>
+          <strong><Link to="/fleet">Fleet</Link></strong>
+          
         </li>
         <li>
-          <Link to="/HomeOwner?userType=agent&policyExternalNumber=PL-HMP0001078976%2F00">HomeOwner</Link>
+          <strong><Link to="/HomeOwner?userType=agent&policyExternalNumber=PL-HMP0001078976%2F00">HomeOwner</Link></strong>
         </li>
       </ul>
     </>
