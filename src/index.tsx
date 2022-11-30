@@ -3,10 +3,10 @@ import { render } from "react-dom";
 import JourneyProvider from "./journeyProvider";
 import "./styles.css";
 import queryString from "query-string";
-import SwissPostJourney from "./SwissPostJourney";
-import HomeOwner from "./HomeOwner";
+import SwissPostJourney from "./Journeys/SwissPostJourney";
+import HomeOwner from "./Journeys/HomeOwner";
 
-import HomePage from "./HomePage";
+import HomePage from "./Pages/HomePage";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
