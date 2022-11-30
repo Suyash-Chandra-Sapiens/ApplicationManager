@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import JourneyProvider from "../journeyProvider";
-import "./styles.css";
+import "../styles.css";
 import queryString from "query-string";
 
 interface AppProps {}
